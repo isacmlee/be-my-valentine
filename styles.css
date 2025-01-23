@@ -1,8 +1,15 @@
+img {
+    max-width: 20%;   
+    margin: 20px auto 0; 
+    display: block;          
+    height: auto;            
+  }
+  
 body {
-    font-family: 'Comic Sans MS', sans-serif;
+    font-family: 'Avenir Black';
     text-align: center;
     background-color: #ffe4e1;
-    color: #ff69b4;
+    color: #b34f81;
     margin: 0;
     padding: 0;
 }
