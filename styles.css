@@ -1,6 +1,6 @@
 img {
     max-width: 20%;   
-    margin: 20px auto 0; 
+    margin: 40px auto 0; 
     display: block;          
     height: auto;            
   }
@@ -27,16 +27,7 @@ button {
     border-radius: 10px;
     margin: 20px;
 }
-#noButton {
-    background-color: #ff69b4;
-    color: white;
-    border: none;
-    padding: 15px 30px;
-    font-size: 1.2em;
-    cursor: pointer;
-    border-radius: 10px;
-    margin: 20px;
-}
+
 button:hover {
     background-color: #ff1493;
 }
@@ -44,7 +35,7 @@ button:hover {
     display: none;
     margin-top: 20px;
 }
-select {
+select, input {
     font-size: 1em;
     padding: 10px;
     margin: 10px;

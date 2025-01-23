@@ -7,38 +7,61 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <img src="IMG_1544.jpg"></img>
-    <h1>Will you be my Valentine? 💖</h1>
+    <img src="IMG_1544.jpg" alt="Valentine's Image">
+    <h1>Arine, be my Valentine?</h1>
     <button id="yesButton">Yes!</button>
-    <a href="#"><button id="noButton">No 😢</button></a>
+    <a href="https://www.youtube.com/watch?v=JDb3ZZD4bA0&ab_channel=Drake-Topic">
+        <button id="noButton">No😢</button>
+    </a>
 
     <div class="options" id="options">
-        <h2>Yay! Let's plan our special day:</h2>
-        <label for="activity">Choose an activity:</label>
-        <select id="activity">
-            <option value="movie">Movie Night</option>
-            <option value="picnic">Picnic</option>
-            <option value="bowling">Bowling</option>
-            <option value="hiking">Hiking</option>
-        </select>
+        <h2>Excellent choice :D</h2>
+        <p>Please keep your February 15th open.</p>
+
+        <!-- Form for selecting activities, dinner, dessert, and other inputs -->
+        <form action="https://formspree.io/f/mzzdbdgd" method="POST">
+            <label for="activity">Choose an activity:</label>
+            <select name="activities" id="activity">
+                <option disabled selected hidden>Select an Option</option>
+                <option name="picnic">Picnic @ The Getty Center</option>
+                <option name="spa">Spa Day @ the Jimjjilbang in K-Town</option>
+                <option name="cruise">Romantic Cruise and Wine @ Marina Del Rey</option>
+                <option name="other">Other</option>
+            </select>
+            <br>
+
+            <label for="dinner">Choose dinner:</label>
+            <select name="dinner" id="dinner">
+                <option disabled selected hidden>Select an Option</option>
+                <option name="kato">Kato</option>
+                <option name="omakase">Omakase of Your Choice</option>
+                <option name="other">Other</option>
+            </select>
+            <br>
+
+            <label for="dessert">Choose dessert:</label>
+            <select name="dessert" id="dessert">
+                <option disabled selected hidden>Select an Option</option>
+                <option name="icecream">Ice Cream</option>
+                <option name="boba">Boba</option>
+                <option name="yogurt">Frozen Yogurt</option>
+                <option name="creme brulee">Crème brûlée</option>
+                <option name="other">Other</option>
+            </select>
+            <br>
+
+            <label for="other">If you have selected Other for any of the options or have any special requests:</label>
+            <input type="text" name="special request" placeholder="Enter your request">
+            <br><br>
+
+            <h3>Thank you for being my valentine, girlfriend, and bestfriend. I love you. ❤️</h3>
+
+            <!-- Submit Button -->
+            <button type="submit">Submit</button>
+        </form>
         <br>
-        <label for="dinner">Choose dinner:</label>
-        <select id="dinner">
-            <option value="italian">Italian</option>
-            <option value="sushi">Sushi</option>
-            <option value="bbq">BBQ</option>
-            <option value="mexican">Mexican</option>
-        </select>
         <br>
-        <label for="dessert">Choose dessert:</label>
-        <select id="dessert">
-            <option value="icecream">Ice Cream</option>
-            <option value="cake">Cake</option>
-            <option value="cookies">Cookies</option>
-            <option value="brownies">Brownies</option>
-        </select>
-        <br>
-        <h3>Thank you for making my Valentine’s Day special! ❤️</h3>
+
     </div>
 
     <script src="script.js"></script>
